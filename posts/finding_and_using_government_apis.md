@@ -43,7 +43,7 @@ It's called [api.gov.au](https://api.gov.au)
 
 Our team works with all levels of government to collect and document government APIs and other machine-to-machine services in one place.
 
-We're designing [api.gov.au](https://api.gov.au) to not only be the place where APIs are discovered, but helps authors write better and more consistent documentation. Our hypothesis is that this will make it much easier for people looking to consume apis will find it easier to pick and choose between them.
+We're designing the platform to not only be the place where APIs are discovered, but helps authors write better and more consistent documentation. Our hypothesis is that this will make it much easier for people looking to consume apis to pick and choose the right one for them.
 
 > **It's important to note:** when we say 'api' we mean any technology that lets two systems interact and exchange data. While we have a preference for RESTfully designed JSON apis, we don't care if the technology is SOAP, WS\* or even SFTP. If lets people better exchange digital data with government, we'll take it.
 
