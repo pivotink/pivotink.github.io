@@ -115,6 +115,11 @@ Everything we’re working on is open source and available at our [github reposi
 It's a little out of date, but here are some more techincal or detailed images that you might find interesting:
 
 
+### Our product roadmap 
+
+{: .post__content--full}
+![An image showing the major components of upcomming work for api.gov.au](/img/roadmap.png)
+
 ### The technology and microservices
 
 {: .post__content--full}
