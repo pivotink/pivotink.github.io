@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/img/favicon-128.png" sizes="128x128" />
+
+    <link href="https://fonts.googleapis.com/css?family=Saira+Condensed:400,600" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <title>{{ page.title }} : pivot.ink</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="header banner">
+    </div>
+
+    <main role="main">
+    <div class="container post">
+
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.date | date: "%-d %B %Y" }}</p>
+        <h4 class="post__subtitle">{{ page.subtitle }}</h4>
+        <hr/>
+
+        <div class="post__content">
+            {{ content }}
+        </div>
+
+        </div>
+    </main>
+    <div class="footer footer--blue">
+        <a href="https://pivot.ink"><img class="footer__logo by_pivot" src="/img/by_pivot.png"/></a>
+    </div> 
+
+
+
+</body>
+</html>
