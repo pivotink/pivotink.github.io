@@ -68,6 +68,20 @@ Here's an example:
 {: .post__content--full}
 ![An image showing the definitions related to location](https://api.gov.au/graph/relations.png?url=https://api.gov.au/definitions/api/definition/ce/ce52)
 
+### Sharing your definitions in the catalogue
+If you want to share some of your definitions in the catalogue, we've put together a quick and dirty tool to help while we're building something propper.
+
+You'll need to prepare a CSV file with one row per definition, with separate coluns for:
+ - Name
+ - Definition
+
+That's the bare minimum, but we'll also take:
+- Guidance
+- A unique identifier
+- It's datatype
+- It's status (published, draft, etc)
+
+You can find the definitions ingester [here](https://definitions-ingester.herokuapp.com/)
 
 ## Sharing what we know 
 
